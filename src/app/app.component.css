@@ -1,0 +1,72 @@
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  line-height: 1.5;
+}
+
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+
+p strong {
+  color: #333;
+}
+
+
+button {
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  margin-top: 20px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+  color: #222;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+  border-color: #111;
+}
+
+button:active {
+  background-color: #d0d0d0;
+  border-color: #000;
+}
+
+
+footer, em {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    margin: 30px 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
